@@ -1,7 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 button{
-    @apply bg-gray-300 rounded-full h-12 w-12 shadow-md
+    @apply bg-gray-300 hover:bg-gray-300/85 hover:scale-90 transition-all rounded-full h-12 w-12 shadow-md flex justify-center items-center
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
 }
