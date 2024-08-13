@@ -59,7 +59,7 @@ rounded-3xl grid grid-cols-4 gap-1 p-5 font-semibold text-xl shadow-xl">
     <button class="bg-slate-200 hover:bg-slate-200/85"on:click={()=> backSpace ()}>
         <BackSpace/>
     </button>
-    <button class="bg-slate-200 hover:bg-slate-200/85"on:click={()=> oddToequation (' /100 ')}>%</button>
+    <button class="bg-slate-200 hover:bg-slate-200/85"on:click={()=> oddToequation (' /100')}>%</button>
 
     <button class=" bg-green-500 hover:bg-green-500/85 text-white"on:click={()=> oddToequation (' + ')} >
         <PlusIcon/>
@@ -76,7 +76,7 @@ rounded-3xl grid grid-cols-4 gap-1 p-5 font-semibold text-xl shadow-xl">
     <button on:click={()=> oddToequation ('5')} >5</button>
     <button on:click={()=> oddToequation ('6')}>6</button>
     <!-- division -->
-    <button class="bg-blue-500 hover:bg-blue-500/85 text-white"on:click={()=> oddToequation ('/')}>
+    <button class="bg-blue-500 hover:bg-blue-500/85 text-white"on:click={()=> oddToequation (' / ')}>
         <Division/>
     </button>
     <button on:click={()=> oddToequation ('1')}>1</button>
